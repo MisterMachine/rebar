@@ -1,64 +1,33 @@
-@import "normalize";
+@import "base/normalize";
+
+// Thoughtbot
 @import "vendor/bourbon/bourbon";
-@import "grid-settings";
 @import "vendor/neat/neat";
-@import "base/base";
-@import "prism";
-@import "fixedsticky";
 
-@import "bourbon-nav";
-@import "refills-styles";
-@import "refills-nav";
+// Config
 
-@import "vendor/refills/accordion";
-@import "vendor/refills/accordion-tabs";
-@import "vendor/refills/accordion-tabs-minimal";
-@import "vendor/refills/badges";
-@import "vendor/refills/breadcrumbs";
-@import "vendor/refills/button-group";
-@import "vendor/refills/cards";
-@import "vendor/refills/footer";
-@import "vendor/refills/footer-2";
-@import "vendor/refills/hero";
-@import "vendor/refills/modal";
-@import "vendor/refills/navigation";
-@import "vendor/refills/image-gradient-dynamic";
-@import "vendor/refills/progress-bar";
-@import "vendor/refills/progress-bar-indication";
-@import "vendor/refills/search-bar";
-@import "vendor/refills/sliding-menu";
-@import "vendor/refills/switch";
-@import "vendor/refills/tables";
-@import "vendor/refills/tables-minimal";
-@import "vendor/refills/tooltip";
-@import "vendor/refills/vertical-tabs";
-@import "vendor/refills/hover-tile-animation";
-@import "vendor/refills/icon-bullet-points";
-@import "vendor/refills/grid-items";
-@import "vendor/refills/grid-items-lines";
-@import "vendor/refills/comment";
-@import "vendor/refills/pagination";
-@import "vendor/refills/browser";
-@import "vendor/refills/side-image";
-@import "vendor/refills/video";
-@import "vendor/refills/centered-navigation";
-@import "vendor/refills/search-tools";
-@import "vendor/refills/device";
-@import "vendor/refills/dropdown";
-@import "vendor/refills/textures";
-@import "vendor/refills/intro-text";
+@import "settings";
+@import "base/bitters/base";
+@import "base/refills/refills";
+@import "base/global";
 
-@import "vendor/refills/type-system-slab";
-@import "vendor/refills/type-system-traditional";
-@import "vendor/refills/type-system-geometric";
-@import "vendor/refills/type-system-rounded";
-@import "vendor/refills/type-system-sans";
-@import "vendor/refills/type-system-serif";
-
-@import "vendor/refills/texture-legend";
-
+// Tools (mixins)
 @import "tools/tools";
+
+// Partials and Components
 @import "components/components";
+
+// Layouts
 @import "layout/layout";
+
+// Pages
 @import "pages/pages";
+
+// Helpers
 @import "helpers/helpers";
+
+// Pattern Library
+@import "vendor/prism";
+@import "vendor/fixedsticky";
+@import "vendor/bourbon-nav";
+@import "vendor/refills-nav";
