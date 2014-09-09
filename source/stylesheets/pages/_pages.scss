@@ -6,25 +6,35 @@
 .page-artwork-single {
   .component-overview {
     @include outer-container();
+    padding: 1em;
 
     .artwork-frame {
-      @include span-columns(9);
+      @include media($large-screen) {
+        @include span-columns(9);
+      }
     }
 
     .artwork-metadata {
-      @include span-columns(3);
+      @include media($large-screen) {
+        @include span-columns(3);
+      }
     }
   }
 
   .component-background {
     @include outer-container();
-
+    padding: 1em;
+    
     .artwork-description {
-      @include span-columns(9);
+      @include media($large-screen) {
+        @include span-columns(9);
+      }
     }
 
     .artwork-stats {
-      @include span-columns(3);
+      @include media($large-screen) {
+        @include span-columns(3);
+      }
     }
   }
 }

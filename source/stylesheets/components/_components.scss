@@ -1,5 +1,32 @@
 // Partials
-// @import "partials/partials";
+@import "partials/partials";
 
 // Components
 // @import "components";
+
+.artwork-item {
+  float: left;
+}
+
+
+.component-gallery-artist {
+  $grid-item-columns: 4;
+  @include outer-container();
+
+  .artwork-item {
+    @include media($large-screen) {
+      @include grid-item-columns($grid-item-columns);
+    }
+  }
+}
+
+.component-gallery-recommended {
+  $grid-item-columns: 6;
+  @include outer-container();
+
+  .artwork-item {
+    @include media($large-screen) {
+      @include grid-item-columns($grid-item-columns);
+    }
+  }
+}
