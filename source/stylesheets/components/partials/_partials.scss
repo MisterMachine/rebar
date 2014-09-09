@@ -7,3 +7,12 @@
     font-size: 1.25em;
   }
 }
+
+.artwork-actions {
+  .actions {
+    padding-top: 1em;
+    li {
+      @include inline-block;
+    }
+  }
+}
