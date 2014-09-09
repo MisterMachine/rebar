@@ -11,7 +11,7 @@
 .component-gallery-artist {
   $grid-item-columns: 4;
   @include outer-container();
-  padding: 1em 0;
+  padding: 1em;
 
   .artwork-item {
     @include media($large-screen) {
@@ -23,7 +23,7 @@
 .component-gallery-recommended {
   $grid-item-columns: 6;
   @include outer-container();
-  padding: 1em 0;
+  padding: 1em;
 
   .artwork-item {
     @include media($large-screen) {
