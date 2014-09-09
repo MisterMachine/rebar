@@ -14,10 +14,11 @@
   <body class="<%= page_classes %>">
     <section class="container">
       <section class="inner-content">
+        <%= partial "partials/navigation" %>
+        
         <%= yield %>
-        <footer class="refills-footer">
-          <p>Copyright &copy; 2014 <a href="//depict.com">Depict, inc</a>.</p>
-        </footer>
+        
+        <%= partial "partials/footer" %>
       </section>
     </section>
   </body>
