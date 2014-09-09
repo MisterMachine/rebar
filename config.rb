@@ -2,6 +2,7 @@ require 'erubis'
 require 'lib/snippet_helpers'
 
 activate :directory_indexes
+activate :autoprefixer
 
 set :css_dir, 'stylesheets'
 set :images_dir, 'images'
