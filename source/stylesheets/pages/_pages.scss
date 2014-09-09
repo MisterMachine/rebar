@@ -5,18 +5,22 @@
 
 .page-artwork-single {
   .component-overview {
-    @include outer-container();
-    padding: 1em;
+    background: #efefef;
 
-    .artwork-frame {
-      @include media($large-screen) {
-        @include span-columns(9);
+    .overview-container {
+      @include outer-container();
+      padding: 1em;
+
+      .artwork-frame {
+        @include media($large-screen) {
+          @include span-columns(9);
+        }
       }
-    }
 
-    .artwork-metadata {
-      @include media($large-screen) {
-        @include span-columns(3);
+      .artwork-metadata {
+        @include media($large-screen) {
+          @include span-columns(3);
+        }
       }
     }
   }
@@ -24,7 +28,7 @@
   .component-background {
     @include outer-container();
     padding: 1em;
-    
+
     .artwork-description {
       @include media($large-screen) {
         @include span-columns(9);
@@ -37,4 +41,9 @@
       }
     }
   }
+}
+
+.gallery-container {
+  background: #efefef;
+  padding: 2em 0;
 }
