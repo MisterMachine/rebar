@@ -4,12 +4,6 @@ header.navigation .logo {
 
 .navigation {
   svg {
-    .left {
-      fill: #fff;
-    }
-
-    .right {
-      fill: #ccc;
-    }
+    @extend %bright-logo;
   }
 }

@@ -3,6 +3,8 @@
   background-image: none;
   border-radius: 0;
   border-width: 3px;
+  border-style: solid;
+  border-color: #fff;
   box-shadow: none;
   color: #fff;
   padding: 1em;
@@ -19,5 +21,25 @@
   &:focus {
     border-width: 3px;
     box-shadow: none;
+  }
+}
+
+%bright-logo {
+  .left {
+    fill: #fff;
+  }
+
+  .right {
+    fill: #ccc;
+  }
+}
+
+%trans-logo {
+  .left {
+    fill: rgba(#fff, .5);
+  }
+
+  .right {
+    fill: rgba(#fff, .2);
   }
 }
