@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Refills are prepackaged patterns and components, built on top of Bourbon, Bitters and Neat.">
+    <title><%= current_page.data.title %></title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald:400,300,700|Lusitana:400,700|Open+Sans:400,800">
+    <%= stylesheet_link_tag "all" %>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/javascripts/jquery.erToc.js"></script>
+  </head>
+  <body class="<%= page_classes %>">
+    <section class="container">
+      <section class="inner-content">
+        <!-- <%= partial "partials/navigation" %> -->
+
+        <%= yield %>
+
+        <%= partial "partials/footer" %>
+      </section>
+    </section>
+  </body>
+  <%= javascript_include_tag "all" %>
+</html>

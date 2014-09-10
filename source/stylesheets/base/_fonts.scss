@@ -1,18 +1,17 @@
-@font-face {
-    font-family: 'encode_sans_normalextralight';
-    src: url('../fonts/encodesansnormal-200-extralight-webfont.eot');
-    src: url('../fonts/encodesansnormal-200-extralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/encodesansnormal-200-extralight-webfont.woff2') format('woff2'),
-         url('../fonts/encodesansnormal-200-extralight-webfont.woff') format('woff'),
-         url('../fonts/encodesansnormal-200-extralight-webfont.ttf') format('truetype'),
-         url('../fonts/encodesansnormal-200-extralight-webfont.svg#encode_sans_normalextralight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+// @font-face {
+//     font-family: 'encode_sans_normalextralight';
+//     src: url('../fonts/encodesansnormal-200-extralight-webfont.eot');
+//     src: url('../fonts/encodesansnormal-200-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../fonts/encodesansnormal-200-extralight-webfont.woff2') format('woff2'),
+//          url('../fonts/encodesansnormal-200-extralight-webfont.woff') format('woff'),
+//          url('../fonts/encodesansnormal-200-extralight-webfont.ttf') format('truetype'),
+//          url('../fonts/encodesansnormal-200-extralight-webfont.svg#encode_sans_normalextralight') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
-}
-
 @font-face {
-    font-family: 'encode_sans_normalregular';
+    font-family: 'encode_regular';
     src: url('../fonts/encodesansnormal-400-regular-webfont.eot');
     src: url('../fonts/encodesansnormal-400-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/encodesansnormal-400-regular-webfont.woff2') format('woff2'),
@@ -25,7 +24,7 @@
 }
 
 @font-face {
-    font-family: 'encode_sans_normalbold';
+    font-family: 'encode_semibold';
     src: url('../fonts/encodesansnormal-700-bold-webfont.eot');
     src: url('../fonts/encodesansnormal-700-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/encodesansnormal-700-bold-webfont.woff2') format('woff2'),
@@ -37,34 +36,33 @@
 
 }
 
+// @font-face {
+//     font-family: 'encode_condensedm';
+//     src: url('../fonts/encodesanscompressed-300-light-webfont.eot');
+//     src: url('../fonts/encodesanscompressed-300-light-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../fonts/encodesanscompressed-300-light-webfont.woff2') format('woff2'),
+//          url('../fonts/encodesanscompressed-300-light-webfont.woff') format('woff'),
+//          url('../fonts/encodesanscompressed-300-light-webfont.ttf') format('truetype'),
+//          url('../fonts/encodesanscompressed-300-light-webfont.svg#encode_sans_compressedlight') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+//
+// @font-face {
+//     font-family: 'encode_sans_widethin';
+//     src: url('../fonts/encodesanswide-100-thin-webfont.eot');
+//     src: url('../fonts/encodesanswide-100-thin-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../fonts/encodesanswide-100-thin-webfont.woff2') format('woff2'),
+//          url('../fonts/encodesanswide-100-thin-webfont.woff') format('woff'),
+//          url('../fonts/encodesanswide-100-thin-webfont.ttf') format('truetype'),
+//          url('../fonts/encodesanswide-100-thin-webfont.svg#encode_sans_widethin') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//
+// }
+
 @font-face {
-    font-family: 'encode_sans_compressedlight';
-    src: url('../fonts/encodesanscompressed-300-light-webfont.eot');
-    src: url('../fonts/encodesanscompressed-300-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/encodesanscompressed-300-light-webfont.woff2') format('woff2'),
-         url('../fonts/encodesanscompressed-300-light-webfont.woff') format('woff'),
-         url('../fonts/encodesanscompressed-300-light-webfont.ttf') format('truetype'),
-         url('../fonts/encodesanscompressed-300-light-webfont.svg#encode_sans_compressedlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'encode_sans_widethin';
-    src: url('../fonts/encodesanswide-100-thin-webfont.eot');
-    src: url('../fonts/encodesanswide-100-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/encodesanswide-100-thin-webfont.woff2') format('woff2'),
-         url('../fonts/encodesanswide-100-thin-webfont.woff') format('woff'),
-         url('../fonts/encodesanswide-100-thin-webfont.ttf') format('truetype'),
-         url('../fonts/encodesanswide-100-thin-webfont.svg#encode_sans_widethin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'encode_sans_condensedsemibold';
+    font-family: 'encode_condensedsemibold';
     src: url('../fonts/encodesanscondensed-600-semibold-webfont.eot');
     src: url('../fonts/encodesanscondensed-600-semibold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/encodesanscondensed-600-semibold-webfont.woff2') format('woff2'),
@@ -77,7 +75,7 @@
 
 
 @font-face {
-    font-family: 'encode_sans_widesemibold';
+    font-family: 'encode_widesemibold';
     src: url('../fonts/encodesanswide-600-semibold-webfont.eot');
     src: url('../fonts/encodesanswide-600-semibold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/encodesanswide-600-semibold-webfont.woff2') format('woff2'),

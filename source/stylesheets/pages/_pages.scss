@@ -13,12 +13,12 @@
 
       .artwork-frame {
         @include media($large-screen) {
-          @include span-columns(9);
+          @include span-columns(8);
         }
       }
       .artwork-metadata {
         @include media($large-screen) {
-          @include span-columns(3);
+          @include span-columns(4);
         }
       }
       .artwork-actions {
@@ -30,17 +30,30 @@
 
   .component-background {
     @include outer-container();
-    padding: 1em;
+    padding: $gutter 0;
 
     .artwork-description {
       @include media($large-screen) {
-        @include span-columns(9);
+        @include span-columns(7);
       }
     }
 
     .artwork-stats {
       @include media($large-screen) {
-        @include span-columns(3);
+        @include span-columns(4);
+        @include shift(1);
+      }
+      .excerpt {
+        padding: $gutter;
+        background: $light-gray;
+      }
+      .meta {
+        padding: $gutter;
+        background: $medium-gray;
+      }
+      .social-feed{
+        padding: $gutter;
+        background: $light-gray;
       }
     }
   }

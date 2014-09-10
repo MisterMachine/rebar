@@ -10,6 +10,8 @@ set :js_dir, 'javascripts'
 
 helpers SnippetHelpers
 
+page "/splash.html", :layout => "splash"
+
 ready do
   sprockets.append_path 'vendor/stylesheets'
   sprockets.append_path 'vendor/javascripts'

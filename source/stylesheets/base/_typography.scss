@@ -1,28 +1,25 @@
-$sans-serif: 'encode_sans_normalregular', sans-serif;
-$sans-serif-light: 'encode_sans_normalextralight', sans-serif;
-$sans-serif-bold: 'encode_sans_normalbold', sans-serif;
-$sans-serif-condensed: 'encode_sans_compressedlight', sans-serif;
-$sans-serif-condensedbold: 'encode_sans_condensedsemibold', sans-serif;
-$sans-serif-widethin: 'encode_sans_widethin', sans-serif;
-$sans-serif-widebold: 'encode_sans_widesemibold', sans-serif;
+$sans-serif: 'encode_regular', sans-serif;
+$sans-serif-bold: 'encode_semibold', sans-serif;
+$sans-serif-condensed: 'encode_condensedsemibold', sans-serif;
+$sans-serif-widebold: 'encode_widesemibold', sans-serif;
 
 body {
   font-family: $sans-serif;
+  font-size: 18px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $sans-serif;
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: $sans-serif-bold;
   text-transform: uppercase;
 }
 
-h1 {
-  font-family: $sans-serif;
-  font-size: 3.15em;
+h1, .h1 {
+  font-size: 2.4em;
   font-weight: 600;
   margin-bottom: .6em;
   @include media($medium-screen) {
@@ -30,38 +27,36 @@ h1 {
   }
 }
 
-h2 {
+h2, .h2 {
   font-family: $sans-serif-condensed;
-  font-size: 2.4em;
+  font-size: 1.777em;
   font-weight: 400;
   line-height: 1.4em;
   margin-bottom: 1.2em;
-
   @include media($medium-screen) {
     font-size: 1.4em;
   }
 }
 
-h3 {
- font-size: 1.777em;
+h3, .h3 {
+ font-size: 1.333em;
  font-weight: 700;
  line-height: 1.4em;
  margin-bottom: .5em;
 }
 
-h4 {
+h4, .h4 {
   font-family: $sans-serif-condensed;
-  font-size: 1.333em;
+  font-size: 1em;
 }
 
-h5 {
+h5, .h5 {
   font-size: .825em;
 }
 
 p.date {
   color: transparentize($base-font-color, .6);
   font-family: $sans-serif;
-  font-size: .8em;
   margin-bottom: .5em;
 }
 
@@ -74,8 +69,6 @@ p {
   span {
     font-family: $sans-serif;
     font-weight: 600;
-    font-size: .8em;
-    text-transform: uppercase;
   }
 }
 
