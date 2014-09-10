@@ -1,0 +1,27 @@
+.component-gallery-artist {
+  @include outer-container();
+  padding: 1em;
+
+  .artwork-item {
+    padding-bottom: 1em;
+    
+    @include media($large-screen) {
+      @include span-columns(4);  
+      @include omega(4n);
+    }
+  }
+}
+
+.component-gallery-recommended {
+  @include outer-container();
+  padding: 1em;
+
+  .artwork-item {
+    padding-bottom: 1em;
+
+    @include media($large-screen) {
+      @include span-columns(6);  
+      @include omega(3n);
+    }
+  }
+}
