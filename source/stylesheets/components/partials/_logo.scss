@@ -1,6 +1,15 @@
 header.navigation .logo {
-  height: 60px;
-  width: 60px;
-  padding: .5em;
-  margin-right: 1em;
+
+}
+
+.navigation {
+  svg {
+    .left {
+      fill: #fff;
+    }
+
+    .right {
+      fill: #ccc;
+    }
+  }
 }
