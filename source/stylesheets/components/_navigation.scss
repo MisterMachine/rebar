@@ -262,21 +262,17 @@ header.navigation {
   }
 
   a.sign-up {
-    margin-top: 1.2em;
-    float: right;
     @include transition (all 0.2s ease-in-out);
-    display: inline;
+    display: inline-block;
     background: $navigation-nav-button-background;
-    border-radius: $base-border-radius; 
+    border-radius: 0; 
     color: white;
     font-size: .8em;  
     font-weight: 800;
     text-transform: uppercase;
-    padding: .4em .5em;
-
-    @include media($large-screen) {
-      padding: .5em 1em;
-    }
+    line-height: $navigation-height;
+    height: $navigation-height;
+    padding: 0 $navigation-padding;
 
     &:hover {
       background: lighten($navigation-nav-button-background, 10);
@@ -284,14 +280,13 @@ header.navigation {
   }
 
   .search-bar {
-    margin-right: $navigation-padding;
 
     input[type=search] {
       height: $navigation-height;
     }
 
     button[type=submit] {
-      padding: 1em 2em;
+      padding: .5em 1em;
     }
   }
 }

@@ -25,15 +25,14 @@
     }
 
     button[type=submit] {
-      @include button(simple, #fff);
       @include position(absolute, 0px 0px 0px 0);
+      background: transparent;
       border-radius: 0;
       outline: none;
-      padding: 5px 10px;
 
-      img {
-        height: 12px;
-        opacity: .7;
+      span {
+        font-size: 1.5em;
+        color: #333;
       }
     }
   }
