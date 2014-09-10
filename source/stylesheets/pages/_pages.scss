@@ -6,21 +6,24 @@
 .page-artwork-single {
   .component-overview {
     background: #efefef;
-
+    position: relative;
     .overview-container {
       @include outer-container();
-      padding: 1em;
+      padding: $gutter 0;
 
       .artwork-frame {
         @include media($large-screen) {
           @include span-columns(9);
         }
       }
-
       .artwork-metadata {
         @include media($large-screen) {
           @include span-columns(3);
         }
+      }
+      .artwork-actions {
+        position: absolute;
+        bottom: $gutter;
       }
     }
   }
