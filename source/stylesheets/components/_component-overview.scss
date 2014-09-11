@@ -15,17 +15,20 @@
 
     .artwork-metadata {
       padding: $gutter;
-      
+
       @include media($large-screen) {
         @include span-columns(4);
         padding-left: 0;
+      }
+      .stats {
+        padding: 0;
       }
     }
 
     .artwork-actions {
       @include media($large-screen) {
-        position: absolute;
-        bottom: $gutter;
+        // position: absolute;
+        // bottom: $gutter;
       }
     }
   }

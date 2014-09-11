@@ -4,7 +4,7 @@
 
 @mixin bbb_common_styling {
   font: inherit;
-  padding: .75em 1.25em;
+  padding: .5em 1em;
   border-radius: 0;
 
   border: none;
@@ -44,6 +44,8 @@ button {
 
   &.hollow {
     @include bbb_bordered_style($primary, $primary);
+    border-width:1px;
+    margin-right: 23px;
   }
 
   &.white {
@@ -54,4 +56,3 @@ button {
     @include bbb_bordered_style(rgba(white, .5), rgba(white, .5));
   }
 }
-
