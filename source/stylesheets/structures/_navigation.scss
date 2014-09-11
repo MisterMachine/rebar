@@ -261,12 +261,9 @@ header.navigation {
   }
 
   a.sign-up {
-    @include transition (all 0.2s ease-in-out);
+    @include bbb_flat_style($secondary, white);
     display: inline-block;
-    background: $navigation-nav-button-background;
-    border-radius: 0; 
-    color: white;
-    font-size: .8em;  
+    font-size: .8em;
     font-weight: 800;
     text-transform: uppercase;
     line-height: $navigation-height;
