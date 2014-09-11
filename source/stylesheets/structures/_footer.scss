@@ -48,11 +48,9 @@
     }
   }
 
-  li h3 {
+  li h3, li h1 {
     color: $footer-color;
     font-size: 1em;
-    font-weight: 800;
-    margin-bottom: .4em;
   }
 
   hr {
@@ -63,8 +61,6 @@
 
   p {
     color: $footer-disclaimer-color;
-    font-size: .9em;
-    line-height: 1.5em;
     margin: auto;
     max-width: 35em;
     text-align: center;
