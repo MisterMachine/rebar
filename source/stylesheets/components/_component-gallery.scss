@@ -1,6 +1,6 @@
 %gallery {
   @include outer-container();
-  padding: 1em;
+  padding: 30px;
 
   .more {
     padding-bottom: 1em;
@@ -19,12 +19,12 @@
   }
 }
 
-.component-gallery-artist {
+.component-gallery-artist, .component-browse-artwork {
   @extend %gallery;
 
   .artwork-item {
     @include media($large-screen) {
-      @include span-columns(4);  
+      @include span-columns(4);
       @include omega(4n);
     }
   }
@@ -35,9 +35,8 @@
 
   .artwork-item {
     @include media($large-screen) {
-      @include span-columns(6);  
+      @include span-columns(6);
       @include omega(3n);
     }
   }
 }
-
