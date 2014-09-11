@@ -36,3 +36,14 @@
   $padding_x: $padding_y * 2;
   padding: $padding_y $padding_x;
 }
+
+button {
+  &.flat {
+
+  }
+
+  &.hollow {
+    @include bbb_bordered_style($primary, $primary);
+  }
+}
+

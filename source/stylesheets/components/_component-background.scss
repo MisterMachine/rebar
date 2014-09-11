@@ -1,0 +1,36 @@
+.component-background {
+  @include outer-container();
+  padding: $gutter;
+
+  .artwork-description {
+    @include media($large-screen) {
+      @include span-columns(7);
+    }
+  }
+
+  .artwork-stats {
+    margin: -$gutter;
+    margin-top: 0;
+
+    @include media($large-screen) {
+      @include span-columns(4);
+      @include shift(1);
+      margin-bottom: 1em;
+    }
+
+    .excerpt {
+      padding: $gutter;
+      background: $light-gray;
+    }
+
+    .meta {
+      padding: $gutter;
+      background: $medium-gray;
+    }
+
+    .social-feed{
+      padding: $gutter;
+      background: $light-gray;
+    }
+  }
+}

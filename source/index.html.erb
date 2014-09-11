@@ -6,48 +6,54 @@
 
 <div class="refill">
   <div class="refills-wrapper">
+  <p class="type">Buttons</p>
+  <br>
   <%= partial "partials/buttons" %>  
   </div>
 </div>
 
 <div class="refill">
   <div class="refills-wrapper">
-  <%= partial "partials/logo" %>
+    <h6 class="type">Logo</h6>
+    <div class="logo-sm">
+      <%= partial "partials/logo" %>
+    </div>
   </div>
 </div>
 
 <div id="navigation" class="refill">
   <div class="refills-wrapper">
-    <div class="line-behind-text"><h6>Navigation</h6></div>
-    <%= partial "refills/navigation" %>
+    <p class="type">Navigation</p>
+    <%= partial "structures/navigation" %>
   </div>
 </div>
 
 <div class="refill">
   <div class="refills-wrapper">
-    <div class="line-behind-text"><h6>Hero</h6></div>
-      <%= partial "refills/side_image" %>
+    <p class="type">Overview</p>
+      <%= partial "components/component-overview" %>
+    </div>
+  </div>
+</div>
+
+<div class="refill">
+  <div class="refills-wrapper">
+    <p class="type">Gallery</p>
+    <%= partial "components/component-gallery-artist" %>
+  </div>
+</div>
+
+<div class="refill">
+  <div class="refills-wrapper">
+    <p class="type">Background</p>
+      <%= partial "components/component-background" %>
     </div>
   </div>  
 </div>
 
 <div class="refill">
   <div class="refills-wrapper">
-    <div class="line-behind-text"><h6>Sans</h6></div>
-    <%= partial "refills/type_system_sans" %>
-  </div>
-</div>
-
-<div class="refill">
-  <div class="refills-wrapper">
-    <div class="line-behind-text"><h6>Cards</h6></div>
-    <%= partial "refills/cards" %>
-  </div>
-</div>
-
-<div class="refill">
-  <div class="refills-wrapper">
-    <div class="line-behind-text"><h6>Grid</h6></div>
+    <p class="type">Grid</p>
     <%= partial "refills/grid_items" %>
     <%= partial "refills/grid_items_lines" %>
   </div>

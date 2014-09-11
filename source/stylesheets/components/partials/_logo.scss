@@ -7,3 +7,11 @@ header.navigation .logo {
     @extend %bright-logo;
   }
 }
+
+.logo-sm {
+  text-align: center;
+  
+  svg {
+    height: 10em;
+  }
+}

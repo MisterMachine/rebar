@@ -5,10 +5,11 @@
 @import "vendor/neat/neat";
 
 // Tools (mixins)
+@import "settings";
 @import "tools/tools";
 
 // Config
-@import "settings";
+
 @import "base/bitters/base";
 @import "base/refills/refills";
 @import "base/global";
