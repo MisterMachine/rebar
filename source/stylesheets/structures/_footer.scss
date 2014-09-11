@@ -1,8 +1,8 @@
 .footer {
-  $footer-background: $dark-gray;
+  $footer-background: darken($dark-gray, 23%);
   $footer-color: white;
   $footer-link-color: transparentize($footer-color, .6);
-  $footer-disclaimer-color: transparentize($footer-color, .6);
+  $footer-disclaimer-color: transparentize($footer-color, .8);
 
   background: $footer-background;
   padding: $base-spacing*2 $gutter;
@@ -64,9 +64,10 @@
   }
 
   p {
+    font-size: .8em;
     color: $footer-disclaimer-color;
     margin: auto;
-    max-width: 35em;
+    max-width: 65em;
     text-align: center;
   }
 }
