@@ -9,10 +9,14 @@
   width: 100%;
 
   .footer-logo {
+    @extend %trans-logo;
     text-align: center;
-    margin-bottom: 2em;
 
-    img {
+    @include media($large-screen) {
+      text-align: left;
+    }
+
+    svg {
       height: 3em;
     }
   }
@@ -40,7 +44,7 @@
     }
   }
 
-  li a {
+  a {
     color: $footer-link-color;
 
     &:hover {
