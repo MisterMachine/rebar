@@ -34,7 +34,8 @@ $base-background-color: #fff;
 
     button {
       // @include button(simple, $base-background-color);
-      @extend %hollow-button;
+      // @extend %hollow-button;
+      @include bbb_bordered_style(white, white);
       font-size: $base-font-size;
       outline: none;
     }
