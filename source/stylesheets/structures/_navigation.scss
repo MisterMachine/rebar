@@ -1,8 +1,8 @@
 header.navigation {
   $navigation-padding: 1rem;
-  $navigation-background: $dark-gray;
-  $navigation-color: transparentize(white, 0.3);
-  $navigation-color-hover: white;
+  $navigation-background: $light-gray;
+  $navigation-color: transparentize($black, 0.3);
+  $navigation-color-hover: $black;
   $navigation-height: 3.33rem;
   $navigation-nav-button-background: $base-accent-color;
   $navigation-nav-button-background-hover: lighten($navigation-background, 10);
@@ -27,7 +27,6 @@ header.navigation {
   }
 
   .logo {
-    color: $navigation-color;
     display: inline;
     float: left;    
     max-height: $navigation-height;
@@ -36,7 +35,7 @@ header.navigation {
     padding: $navigation-padding/2;
 
     .name {
-      color: #fff;
+      color: darken($dark-gray, 23%);
       float: left;
       display: block;
       font-family: $sans-serif-widebold;
@@ -48,7 +47,7 @@ header.navigation {
       float: left;
       display: block;
       height: $navigation-height - $navigation-padding;
-      width: $navigation-height;
+      margin-right: .5em;
     }
   }
 

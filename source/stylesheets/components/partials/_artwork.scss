@@ -29,4 +29,11 @@ figcaption span {
 
 .artwork-image {
   line-height: 0;
+  background-repeat: none;
+  background-size: cover;
+
+  img {
+    visibility: hidden;
+    min-width: 100%;
+  }
 }

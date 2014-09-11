@@ -1,10 +1,17 @@
 .component-background {
   @include outer-container();
-  padding: $gutter;
+  background: $light-gray;
 
   .artwork-description {
+    padding: $gutter;
+    background: white;
+
     @include media($large-screen) {
-      @include span-columns(7);
+      @include span-columns(8);
+    }
+
+    p {
+      max-width: $measure;
     }
   }
 
@@ -14,13 +21,12 @@
 
     @include media($large-screen) {
       @include span-columns(4);
-      @include shift(1);
       margin-bottom: 1em;
     }
 
     .excerpt {
       padding: $gutter;
-      background: $light-gray;
+      
     }
 
     .meta {

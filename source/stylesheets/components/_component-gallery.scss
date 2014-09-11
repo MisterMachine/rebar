@@ -1,6 +1,6 @@
 %gallery {
   @include outer-container();
-  padding: 30px;
+  padding: $gutter;
 
   .more {
     color: rgba($black, .3);
@@ -19,6 +19,11 @@
       font-size: $h6-font-size;
     }
   }
+}
+
+.gallery-title {
+  @include outer-container();
+  padding: 0 $gutter;
 }
 
 .component-gallery-artist, .component-browse-artwork {
@@ -56,3 +61,4 @@
     }
   }
 }
+

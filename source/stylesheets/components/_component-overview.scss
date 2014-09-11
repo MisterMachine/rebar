@@ -29,4 +29,17 @@
       }
     }
   }
+
+  &.dark {
+    background: darken($dark-gray, 23%);
+    color: #fff;
+
+    .overview-container {
+      padding-bottom: 0;
+
+      .artwork-frame {
+        padding: 0;
+      }
+    }
+  }
 }
