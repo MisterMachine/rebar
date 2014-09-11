@@ -34,18 +34,14 @@
 
 .component-browse-discover {
   @extend %gallery;
-  .artwork-item {
-    @include media($large-screen) {
-      @include span-columns(4);
-    }
-  }
   .browse-discover-list {
     @include media($large-screen) {
-      @include span-columns(8);
+      @include span-columns(6);
+      @include shift(3);
     }
     .browse-discover-genres li {
-      @include span-columns(4 of 8);
-      @include omega(2n);
+      @include span-columns(2 of 6);
+      @include omega(3n);
     }
   }
 }
