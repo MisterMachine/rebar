@@ -5,6 +5,7 @@
 @import "splash";
 
 .page-artwork-single {
+  
   .component-overview {
     background: #efefef;
     position: relative;
@@ -19,13 +20,16 @@
           padding: $gutter 0 0 $gutter;
         }
       }
+
       .artwork-metadata {
         padding: $gutter;
-
+        
         @include media($large-screen) {
           @include span-columns(4);
+          padding-left: 0;
         }
       }
+
       .artwork-actions {
         @include media($large-screen) {
           position: absolute;
@@ -59,10 +63,12 @@
         padding: $gutter;
         background: $light-gray;
       }
+
       .meta {
         padding: $gutter;
         background: $medium-gray;
       }
+
       .social-feed{
         padding: $gutter;
         background: $light-gray;
