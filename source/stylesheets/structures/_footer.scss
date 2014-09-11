@@ -12,7 +12,7 @@
     @extend %trans-logo;
     text-align: center;
 
-    @include media($large-screen) {
+    @include media($medium-screen) {
       text-align: left;
     }
 

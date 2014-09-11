@@ -21,7 +21,7 @@ header.navigation {
 
   .navigation-wrapper {
     @include clearfix;
-    @include outer-container;
+    //@include outer-container;
     position: relative;
     z-index: 9999;
   }
@@ -259,8 +259,6 @@ header.navigation {
   .navigation-tools {
     @include clearfix;
     display: none;
-    padding-right: $navigation-padding;
-    padding-left: $navigation-padding/2;
     clear: both;
     background: #505050;
 

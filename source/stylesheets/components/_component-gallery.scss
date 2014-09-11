@@ -8,6 +8,14 @@
 
   .artwork-item {
     padding-bottom: 1em;
+
+    .name {
+      font-size: $h5-font-size;
+    }
+
+    .title {
+      font-size: $h6-font-size;
+    }
   }
 }
 
