@@ -38,6 +38,7 @@
 }
 
 button {
+  text-transform: uppercase;
   &.flat {
 
   }
@@ -46,6 +47,11 @@ button {
     @include bbb_bordered_style($primary, $primary);
     border-width:1px;
     margin-right: 23px;
+  }
+
+  &.narrow {
+    width: 50%;
+    font-size: 0.8em;
   }
 
   &.white {
