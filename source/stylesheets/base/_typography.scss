@@ -70,6 +70,21 @@ hr {
   width: 3em;
 }
 
+a {
+  @include transition(color 0.1s linear);
+  color: $base-link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $hover-link-color;
+  }
+
+  &:active, &:focus {
+    color: $hover-link-color;
+    outline: none;
+  }
+}
+
 a.read-more {
   display: inline-block;
   font-family: $sans-serif;
@@ -80,9 +95,6 @@ a.read-more {
   position: relative;
 
   span {
-    position: absolute;
-    font-size: 1.7em;
-    top: -2px;
     right: -10px;
   }
 }
@@ -126,4 +138,9 @@ code {
 
 p.type-large {
   font-size: 1.333em;
+}
+
+.measure {
+  max-width: $measure;
+  margin: 0 auto;
 }
