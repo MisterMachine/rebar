@@ -1,6 +1,7 @@
 %gallery {
   @include outer-container();
   padding: $gutter;
+  margin-bottom: $gutter;
 
   .more {
     color: rgba($black, .3);
