@@ -1,4 +1,4 @@
 button,
 input[type="submit"] {
-
+  @include bbb_flat_style($pri, white);
 }  

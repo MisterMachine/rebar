@@ -4,14 +4,14 @@
 @import "vendor/bourbon/bourbon";
 @import "vendor/neat/neat";
 
+// Tools (mixins)
+@import "tools/tools";
+
 // Config
 @import "settings";
 @import "base/bitters/base";
 @import "base/refills/refills";
 @import "base/global";
-
-// Tools (mixins)
-@import "tools/tools";
 
 // Partials and Components
 @import "components/components";
