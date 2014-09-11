@@ -25,7 +25,25 @@
   .artwork-item {
     @include media($large-screen) {
       @include span-columns(4);
-      @include omega(4n);
+      @include omega(3n);
+    }
+  }
+}
+
+.component-browse-discover {
+  @extend %gallery;
+  .artwork-item {
+    @include media($large-screen) {
+      @include span-columns(4);
+    }
+  }
+  .browse-discover-list {
+    @include media($large-screen) {
+      @include span-columns(8);
+    }
+    .browse-discover-genres li {
+      @include span-columns(4 of 8);
+      @include omega(2n);
     }
   }
 }
@@ -36,7 +54,7 @@
   .artwork-item {
     @include media($large-screen) {
       @include span-columns(6);
-      @include omega(3n);
+      @include omega(2n);
     }
   }
 }

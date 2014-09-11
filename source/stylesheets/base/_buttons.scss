@@ -1,4 +1,4 @@
 button,
-input[type="submit"] {
+input[type="submit"], .button {
   @include bbb_flat_style($primary, white);
 }
