@@ -37,3 +37,34 @@ figcaption span {
     min-width: 100%;
   }
 }
+
+.stats {
+  padding: $gutter;
+  overflow: auto;
+
+  li {
+    color: $secondary;
+    display: inline;
+    font-weight: 800;
+    font-size: 1.2em;
+    float: left;
+    border-right: 1px solid transparentize($base-font-color, .8);
+    line-height: 1.1em;
+    padding: 0 .7em 0 .7em;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+
+    span {
+      color: $base-font-color;
+      font-size: .7em;
+      display: block;
+      font-weight: normal;
+    }
+  }
+}

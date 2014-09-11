@@ -1,6 +1,5 @@
 .component-background {
   @include outer-container();
-  background: $light-gray;
 
   .artwork-description {
     padding: $gutter;
@@ -8,6 +7,7 @@
 
     @include media($large-screen) {
       @include span-columns(8);
+      margin-right: 0;
     }
 
     p {
@@ -16,12 +16,10 @@
   }
 
   .artwork-stats {
-    margin: -$gutter;
-    margin-top: 0;
+    background: $light-gray;
 
     @include media($large-screen) {
       @include span-columns(4);
-      margin-bottom: 1em;
     }
 
     .excerpt {
@@ -29,9 +27,9 @@
       
     }
 
-    .meta {
+    .stats {
       padding: $gutter;
-      background: $medium-gray;
+      background: white;
     }
 
     .social-feed{
