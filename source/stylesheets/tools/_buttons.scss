@@ -45,7 +45,6 @@ button {
 
   &.hollow {
     @include bbb_bordered_style($primary, $primary);
-    border-width:3px;
     margin-top: 23px;
     margin-right: 23px;
   }
