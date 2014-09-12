@@ -45,11 +45,13 @@ button {
 
   &.hollow {
     @include bbb_bordered_style($primary, $primary);
-    border-width:1px;
+    border-width:3px;
+    margin-top: 23px;
     margin-right: 23px;
   }
 
   &.narrow {
+    @include bbb_flat_style($dark-gray, white);
     width: 50%;
     font-size: 0.8em;
   }

@@ -9,7 +9,7 @@
   color: $color;
   background: $background-color;
   border: 2px solid $background-color;
-  
+
   @include transition(all, 0.1s);
 
   &:hover:not(:disabled) {
