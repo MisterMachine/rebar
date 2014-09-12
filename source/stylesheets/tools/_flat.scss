@@ -14,6 +14,7 @@
 
   &:hover:not(:disabled) {
     background: darken($background-color, 5%);
+    border: 2px solid darken($background-color, 5%);
   }
 
   &:active:not(:disabled) {
