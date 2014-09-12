@@ -27,6 +27,13 @@ input[type="submit"] {
       @include bbb_bordered_style(white, white);
     }
 
+  &.label {
+    @include bbb_flat_style($dark-gray, white);
+    padding: 3px 8px;
+    font-size: 0.7em;
+    margin: 0 12px 12px 0;
+  }
+    
   &.trans {
     @include bbb_bordered_style(rgba(white, .5), rgba(white, .5));
   }
