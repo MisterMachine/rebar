@@ -1,12 +1,3 @@
-.artwork-metadata {
-  .data {
-    color: $secondary;
-  }
-  .price {
-    color: $secondary;
-  }
-}
-
 .artwork-actions {
   .actions {
     padding-top: 1em;
@@ -61,6 +52,11 @@ figcaption span {
       font-size: .7em;
       display: block;
       font-weight: normal;
+    }
+  }
+  &.meta {
+    li {
+      color: #fff;
     }
   }
 }
