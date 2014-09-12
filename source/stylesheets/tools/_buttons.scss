@@ -3,8 +3,7 @@
 @import "simple";
 
 @mixin bbb_common_styling {
-  font: inherit;
-  padding: .5em 1em;
+  padding: .75em 1.25em;
   border-radius: 0;
 
   border: none;
@@ -35,31 +34,4 @@
   }
   $padding_x: $padding_y * 2;
   padding: $padding_y $padding_x;
-}
-
-button {
-  text-transform: uppercase;
-  &.flat {
-
-  }
-
-  &.hollow {
-    @include bbb_bordered_style($primary, $primary);
-    margin-top: 23px;
-    margin-right: 23px;
-  }
-
-  &.narrow {
-    @include bbb_flat_style($dark-gray, white);
-    width: 50%;
-    font-size: 0.8em;
-  }
-
-  &.white {
-      @include bbb_bordered_style(white, white);
-    }
-
-  &.trans {
-    @include bbb_bordered_style(rgba(white, .5), rgba(white, .5));
-  }
 }
