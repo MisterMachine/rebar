@@ -20,7 +20,6 @@
 
 // @include media($large-screen) {}
 
-
 .splash-cta {
   padding: 2.4em 0;
 
@@ -45,7 +44,9 @@
   .container {
     @include outer-container;
     .splash-infobox {
-      @include span-columns(4);
+      @include media($medium-screen) {
+        @include span-columns(4);
+      }
     }
   }
 }

@@ -21,14 +21,13 @@ header.navigation {
 
   .navigation-wrapper {
     @include clearfix;
-    //@include outer-container;
     position: relative;
     z-index: 9999;
   }
 
   .logo {
-    display: inline;
-    float: left;    
+    display: block;
+    float: left;
     max-height: $navigation-height;
     line-height: $navigation-height;
     height: $navigation-height;
@@ -37,16 +36,22 @@ header.navigation {
     .name {
       color: darken($dark-gray, 23%);
       float: left;
-      display: block;
+      display: none;
       font-family: $sans-serif-widebold;
       line-height: $navigation-height - $navigation-padding;
       text-transform: uppercase;
+      width: 50px;
+
+      @include media ($horizontal-bar-mode) {
+        display: block;
+      }  
     }
 
     svg {
       float: left;
       display: block;
       height: $navigation-height - $navigation-padding;
+      width: $navigation-height - $navigation-padding;
       margin-right: .5em;
     }
   }
