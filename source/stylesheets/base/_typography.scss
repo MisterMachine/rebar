@@ -26,7 +26,7 @@ h1 {
   font-family: $sans-serif-widebold;
   font-size: $h2-font-size;
   line-height: $h1-line-height;
-  margin-bottom: $h1-margin-bottom;
+  // margin-bottom: $h1-margin-bottom;
 
   @include media($large-screen) {
     font-size: $h1-font-size;
